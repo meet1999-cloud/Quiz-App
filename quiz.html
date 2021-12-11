@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <style>
+        .main{
+            padding: 10px;
+            background-color: coral;
+        }
+        .header{
+            text-align: center;
+            border-radius: 10px;
+        }
+        .quiz{
+            width: 50%;
+            margin-left: 29%;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <h2>
+                Awesome Quiz Application
+            </h2>
+        </div>
+        <div class="quiz">
+            <label for="q1">What does Html Stand for</label><br>
+            <input type="radio" name="q1" value="hyper text markup language">hyper text markup language</input><br>
+            <input type="radio" name="q1" value="hyper text preprocessor">hyper text preprocessor</input><br>
+            <input type="radio" name="q1" value="hyper text convert language">hyper text convert language</input><br>
+            <input type="radio" name="q1" value="hyper text multimedia language">hyper text multimedia language</input><br><br>
+
+            <label for="q2">What does Css stand for</label><br>
+            <input type="radio" name="q2" value="Cascading Style sheet">Cascading Style sheet</input><br>
+            <input type="radio" name="q2" value="Color style sheet">Color style sheet</input><br>
+            <input type="radio" name="q2" value="Cascade style sheet">Cascade style sheet</input><br>
+            <input type="radio" name="q2" value="Cascade sheets style">Cascade sheets style</input><br><br>
+
+            <label for="q3">What does Php stand for</label><br>
+            <input type="radio" name="q3" value="Hypertext Preprocessor">Hypertext Preprocessor</input><br>
+            <input type="radio" name="q3" value="Pretext Hypertext Preprocessor">Pretext Hypertext Preprocessor</input><br>
+            <input type="radio" name="q3" value="Personal Home Processor">Personal Home Processor</input><br>
+            <input type="radio" name="q3" value="None of the above">None of the above</input><br><br>
+
+            <label for="q4">A program that is used to view websites is called a</label><br>
+            <input type="radio" name="q4" value="Browser">Browser</input><br>
+            <input type="radio" name="q4" value="Web viewer">Web viewer</input><br>
+            <input type="radio" name="q4" value="Spreadsheet">Spreadsheet</input><br>
+            <input type="radio" name="q4" value="None of the above">None of the above</input><br><br>
+
+            <label for="q5">Web page editors works on a ____ principle.</label><br>
+            <input type="radio" name="q4" value="WWW">WWW</input><br>
+            <input type="radio" name="q4" value=" HTML"> HTML</input><br>
+            <input type="radio" name="q4" value="WYSIWYG">WYSIWYG</input><br>
+            <input type="radio" name="q4" value="WYGWYSI">WYGWYSI</input><br><br>
+            <div class="button">
+                <button type="button" onclick="formsubmitted()">Quit</button>
+                <button>Restart</button>
+            </div>
+        </div>
+    </div>
+<script>
+    function formsubmitted(){
+        alert("Thanks for Test");
+        window.location.href = "file:///D:/quiz/meet.html"
+    }
+</script>
+</body>
+</html>
